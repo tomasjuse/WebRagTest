@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-huggingface
+langchain-openai
+langchain-google-genai
+faiss-cpu
+rank_bm25
+python-pptx
+sentence-transformers
+python-dotenv
+pypdf
+mcp
+openai
+torch
+transformers
+uvicorn

@@ -1,0 +1,15 @@
+# MCP server logs
+rag_server_debug.log
+rag_bm25_debug.log
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Generated index files (rebuild with build_db.py)
+faiss_index/
+bm25_retriever.pkl

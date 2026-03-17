@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "ragserver": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "C:\\Users\\tomas.juselius\\Repo\\RagTest\\venv\\Scripts\\python.exe",
+        "C:\\Users\\tomas.juselius\\Repo\\RagTest\\rag_server.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "ragbm25": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "C:\\Users\\tomas.juselius\\Repo\\RagTest\\venv\\Scripts\\python.exe",
+        "C:\\Users\\tomas.juselius\\Repo\\RagTest\\rag_bm25.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
