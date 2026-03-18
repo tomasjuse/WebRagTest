@@ -6,8 +6,7 @@
         "C:\\Users\\tomas.juselius\\Repo\\RagTest\\rag_server.py"
       ],
       "env": {
-        "PYTHONUNBUFFERED": "1",
-        "HF_HUB_OFFLINE": "1"
+        "PYTHONUNBUFFERED": "1"
       }
     },
     "ragbm25": {
@@ -16,8 +15,7 @@
         "C:\\Users\\tomas.juselius\\Repo\\RagTest\\rag_bm25.py"
       ],
       "env": {
-        "PYTHONUNBUFFERED": "1",
-        "HF_HUB_OFFLINE": "1"
+        "PYTHONUNBUFFERED": "1"
       }
     }
   }

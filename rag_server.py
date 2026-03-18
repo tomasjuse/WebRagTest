@@ -12,36 +12,37 @@ logging.debug("rag_server.py starting")
 
 warnings.filterwarnings("ignore")
 
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+os.environ.setdefault("FAISS_OPT_LEVEL", "AVX2")
+
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, PROJECT_DIR)
+
+# --- Heavy imports at module level so they are done before any request ---
+logging.debug("importing langchain / torch / sentence-transformers ...")
+from langchain_community.vectorstores import FAISS
+from langchain_huggingface import HuggingFaceEmbeddings
+try:
+    from langchain.retrievers import EnsembleRetriever
+except ImportError:
+    try:
+        from langchain.retrievers.ensemble import EnsembleRetriever
+    except ImportError:
+        from langchain_classic.retrievers.ensemble import EnsembleRetriever
+logging.debug("imports done")
 
 from mcp.server.fastmcp import FastMCP
 
 BM25_PATH = os.path.join(PROJECT_DIR, "bm25_retriever.pkl")
 FAISS_PATH = os.path.join(PROJECT_DIR, "faiss_index")
 
-mcp = FastMCP("RagTest")
-logging.debug("FastMCP initialized, retriever will load on first call")
-
+# --- Build retriever eagerly at module level (no background thread) ---
+logging.debug("loading retriever (FAISS + BM25 ensemble)...")
 _retriever = None
-
-
-def _load_retriever():
-    global _retriever
-    if _retriever is not None:
-        return _retriever
-    logging.debug("loading retriever (FAISS + BM25 ensemble)...")
-    from langchain_community.vectorstores import FAISS
-    from langchain_huggingface import HuggingFaceEmbeddings
-    try:
-        from langchain.retrievers import EnsembleRetriever
-    except ImportError:
-        try:
-            from langchain.retrievers.ensemble import EnsembleRetriever
-        except ImportError:
-            from langchain_classic.retrievers.ensemble import EnsembleRetriever
-
+try:
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    logging.debug("embeddings loaded")
     vectorstore = FAISS.load_local(
         FAISS_PATH, embeddings, allow_dangerous_deserialization=True
     )
@@ -53,7 +54,10 @@ def _load_retriever():
         retrievers=[bm25_retriever, faiss_retriever], weights=[0.5, 0.5]
     )
     logging.debug("retriever loaded")
-    return _retriever
+except Exception:
+    logging.exception("FAILED to load retriever")
+
+mcp = FastMCP("RagTest")
 
 
 @mcp.tool()
@@ -63,8 +67,9 @@ async def search_documents(query: str) -> str:
     such as Vincit, Siili, AI-powered development, testing, sales materials, or related topics.
     """
     logging.debug(f"search_documents called: {query!r}")
-    retriever = await asyncio.to_thread(_load_retriever)
-    docs = await asyncio.to_thread(retriever.invoke, query)
+    if _retriever is None:
+        return "Error: retriever failed to load. Check rag_server_debug.log for details."
+    docs = await asyncio.to_thread(_retriever.invoke, query)
     logging.debug(f"invoke() returned {len(docs)} docs")
 
     if not docs:

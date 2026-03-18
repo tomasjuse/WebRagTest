@@ -1,3 +1,6 @@
+# MCP config with all servers (use .mcp.json for active config)
+.mcp_all.json
+
 # MCP server logs
 rag_server_debug.log
 rag_bm25_debug.log
