@@ -21,34 +21,39 @@ BM25_PATH = os.path.join(PROJECT_DIR, "bm25_retriever.pkl")
 FAISS_PATH = os.path.join(PROJECT_DIR, "faiss_index")
 
 mcp = FastMCP("RagTest")
+logging.debug("FastMCP initialized, retriever will load on first call")
 
-logging.debug("loading retriever (FAISS + BM25 ensemble)...")
+_retriever = None
 
-from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
-try:
-    from langchain.retrievers import EnsembleRetriever
-except ImportError:
+
+def _load_retriever():
+    global _retriever
+    if _retriever is not None:
+        return _retriever
+    logging.debug("loading retriever (FAISS + BM25 ensemble)...")
+    from langchain_community.vectorstores import FAISS
+    from langchain_huggingface import HuggingFaceEmbeddings
     try:
-        from langchain.retrievers.ensemble import EnsembleRetriever
+        from langchain.retrievers import EnsembleRetriever
     except ImportError:
-        from langchain_classic.retrievers.ensemble import EnsembleRetriever
+        try:
+            from langchain.retrievers.ensemble import EnsembleRetriever
+        except ImportError:
+            from langchain_classic.retrievers.ensemble import EnsembleRetriever
 
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-
-vectorstore = FAISS.load_local(
-    FAISS_PATH, embeddings, allow_dangerous_deserialization=True
-)
-faiss_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-
-with open(BM25_PATH, "rb") as f:
-    bm25_retriever = pickle.load(f)
-    bm25_retriever.k = 3
-
-_retriever = EnsembleRetriever(
-    retrievers=[bm25_retriever, faiss_retriever], weights=[0.5, 0.5]
-)
-logging.debug("retriever loaded")
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    vectorstore = FAISS.load_local(
+        FAISS_PATH, embeddings, allow_dangerous_deserialization=True
+    )
+    faiss_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+    with open(BM25_PATH, "rb") as f:
+        bm25_retriever = pickle.load(f)
+        bm25_retriever.k = 3
+    _retriever = EnsembleRetriever(
+        retrievers=[bm25_retriever, faiss_retriever], weights=[0.5, 0.5]
+    )
+    logging.debug("retriever loaded")
+    return _retriever
 
 
 @mcp.tool()
@@ -58,7 +63,8 @@ async def search_documents(query: str) -> str:
     such as Vincit, Siili, AI-powered development, testing, sales materials, or related topics.
     """
     logging.debug(f"search_documents called: {query!r}")
-    docs = await asyncio.to_thread(_retriever.invoke, query)
+    retriever = await asyncio.to_thread(_load_retriever)
+    docs = await asyncio.to_thread(retriever.invoke, query)
     logging.debug(f"invoke() returned {len(docs)} docs")
 
     if not docs:
