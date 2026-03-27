@@ -122,10 +122,10 @@ HTML = """<!DOCTYPE html>
     <h1>RAG Document Indexer</h1>
     <p class="subtitle">Upload 1–10 documents to rebuild the search index used by the MCP tools.</p>
 
-    <input type="file" id="fileInput" multiple accept=".pdf,.pptx,.doc,.docx">
+    <input type="file" id="fileInput" multiple accept=".pdf,.pptx,.doc,.docx,.json">
     <div class="drop-zone" id="dropZone">
       <p>Drag &amp; drop files here, or <span>browse</span></p>
-      <p class="hint">PDF, PPTX and Word (.doc/.docx) &bull; max 10 files</p>
+      <p class="hint">PDF, PPTX, Word (.doc/.docx), and JSON &bull; max 10 files</p>
     </div>
 
     <div class="file-list" id="fileList"></div>
@@ -172,8 +172,8 @@ HTML = """<!DOCTYPE html>
       errorMsg.textContent = '';
       for (const f of newFiles) {
         const ext = f.name.split('.').pop().toLowerCase();
-        if (!['pdf', 'pptx', 'doc', 'docx'].includes(ext)) {
-          errorMsg.textContent = `Skipped "${f.name}": only PDF, PPTX, and Word (.doc/.docx) are supported.`;
+        if (!['pdf', 'pptx', 'doc', 'docx', 'json'].includes(ext)) {
+          errorMsg.textContent = `Skipped "${f.name}": only PDF, PPTX, Word (.doc/.docx), and JSON are supported.`;
           continue;
         }
         if (!selectedFiles.some(x => x.name === f.name)) {
@@ -292,10 +292,10 @@ async def build_index(files: List[UploadFile] = File(...)):
 
     for f in files:
         ext = Path(f.filename).suffix.lower()
-        if ext not in (".pdf", ".pptx", ".doc", ".docx"):
+        if ext not in (".pdf", ".pptx", ".doc", ".docx", ".json"):
             raise HTTPException(
                 status_code=400,
-                detail=f"Unsupported file type: '{f.filename}'. Only PDF, PPTX, and Word (.doc/.docx) are accepted.",
+            detail=f"Unsupported file type: '{f.filename}'. Only PDF, PPTX, Word (.doc/.docx), and JSON are accepted.",
             )
 
     # Save uploaded files to uploads/

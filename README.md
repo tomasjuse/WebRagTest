@@ -38,14 +38,14 @@ A hybrid RAG (Retrieval-Augmented Generation) application for querying your own 
 python web_app.py
 ```
 
-Open `http://localhost:8000`, upload 1–10 documents, and click **Build Index**. Supported formats: **PDF**, **PPTX**, **DOC/DOCX**.
+Open `http://localhost:8000`, upload 1–10 documents, and click **Build Index**. Supported formats: **PDF**, **PPTX**, **DOC/DOCX**, **JSON**.
 
 The page shows live indexing progress and confirms when the MCP servers are ready to use.
 
 ### Option B — Command line
 
 ```bash
-python build_db.py                         # scans project dir for .pdf / .pptx / .docx
+python build_db.py                         # scans project dir for .pdf / .pptx / .docx / .json
 python build_db.py file1.pdf file2.pptx   # explicit file paths
 ```
 
