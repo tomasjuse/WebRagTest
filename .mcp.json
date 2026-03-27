@@ -1,18 +1,27 @@
 {
   "mcpServers": {
     "ragserver": {
-      "command": "C:\\Users\\tomas.juselius\\Repo\\RagTest\\venv\\Scripts\\python.exe",
+      "command": "C:\\Users\\tomas.juselius\\Repo\\WebRagTest\\venv\\Scripts\\python.exe",
       "args": [
-        "C:\\Users\\tomas.juselius\\Repo\\RagTest\\rag_server.py"
+        "C:\\Users\\tomas.juselius\\Repo\\WebRagTest\\rag_server.py"
       ],
       "env": {
         "PYTHONUNBUFFERED": "1"
       }
     },
     "ragbm25": {
-      "command": "C:\\Users\\tomas.juselius\\Repo\\RagTest\\venv\\Scripts\\python.exe",
+      "command": "C:\\Users\\tomas.juselius\\Repo\\WebRagTest\\venv\\Scripts\\python.exe",
       "args": [
-        "C:\\Users\\tomas.juselius\\Repo\\RagTest\\rag_bm25.py"
+        "C:\\Users\\tomas.juselius\\Repo\\WebRagTest\\rag_bm25.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "ragfaiss": {
+      "command": "C:\\Users\\tomas.juselius\\Repo\\WebRagTest\\venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\tomas.juselius\\Repo\\WebRagTest\\rag_faiss.py"
       ],
       "env": {
         "PYTHONUNBUFFERED": "1"

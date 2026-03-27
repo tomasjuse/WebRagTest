@@ -6,6 +6,7 @@ langchain-google-genai
 faiss-cpu
 rank_bm25
 python-pptx
+python-docx
 sentence-transformers
 python-dotenv
 pypdf
@@ -14,3 +15,5 @@ openai
 torch
 transformers
 uvicorn
+fastapi
+python-multipart
