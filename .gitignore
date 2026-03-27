@@ -13,6 +13,9 @@ __pycache__/
 *.py[cod]
 venv/
 
-# Generated index files (rebuild with build_db.py)
+# Generated index files (rebuild with build_db.py or web_app.py)
 faiss_index/
 bm25_retriever.pkl
+
+# Uploaded documents (temporary, managed by web_app.py)
+uploads/

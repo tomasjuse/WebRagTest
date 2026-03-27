@@ -26,10 +26,12 @@ def load_pptx(file_path):
                 slide_text.append(shape.text)
         full_slide_text = "\n".join(slide_text).strip()
         if full_slide_text:
-            text_data.append(Document(
-                page_content=full_slide_text,
-                metadata={"source": file_path, "slide": i + 1},
-            ))
+            text_data.append(
+                Document(
+                    page_content=full_slide_text,
+                    metadata={"source": file_path, "slide": i + 1},
+                )
+            )
     return text_data
 
 
@@ -42,6 +44,7 @@ def load_pdf(file_path):
 def load_docx(file_path):
     print(f"Loading {file_path}...")
     from docx import Document as DocxDocument
+
     doc = DocxDocument(file_path)
     paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
     full_text = "\n".join(paragraphs)
@@ -51,9 +54,22 @@ def load_docx(file_path):
 def load_json(file_path):
     print(f"Loading {file_path}...")
     with open(file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    full_text = json.dumps(data, ensure_ascii=False, indent=2)
-    return [Document(page_content=full_text, metadata={"source": file_path})]
+        raw = f.read()
+    decoder = json.JSONDecoder()
+    docs = []
+    idx = 0
+    length = len(raw)
+    while idx < length:
+        # Skip whitespace between objects
+        while idx < length and raw[idx] in " \t\n\r":
+            idx += 1
+        if idx >= length:
+            break
+        obj, end = decoder.raw_decode(raw, idx)
+        text = json.dumps(obj, ensure_ascii=False, indent=2)
+        docs.append(Document(page_content=text, metadata={"source": file_path}))
+        idx = end
+    return docs
 
 
 def build_database(file_paths):
@@ -124,10 +140,15 @@ if __name__ == "__main__":
             os.path.join(PROJECT_DIR, f)
             for f in os.listdir(PROJECT_DIR)
             if os.path.isfile(os.path.join(PROJECT_DIR, f))
-            and os.path.splitext(f)[1].lower() in (".pdf", ".pptx", ".doc", ".docx", ".json")
+            and os.path.splitext(f)[1].lower()
+            in (".pdf", ".pptx", ".doc", ".docx", ".json")
         ]
         if not paths:
-            print("No supported files found (.pdf, .pptx, .doc, .docx, .json). Pass file paths as arguments.")
+            print(
+                "No supported files found (.pdf, .pptx, .doc, .docx, .json). Pass file paths as arguments."
+            )
             sys.exit(1)
-        print(f"Found {len(paths)} document(s): {', '.join(os.path.basename(p) for p in paths)}")
+        print(
+            f"Found {len(paths)} document(s): {', '.join(os.path.basename(p) for p in paths)}"
+        )
     build_database(paths)

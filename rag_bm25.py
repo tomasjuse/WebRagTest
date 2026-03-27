@@ -32,7 +32,7 @@ logging.debug("retriever loaded")
 async def search_documents(query: str) -> str:
     """Search the RAG document database (BM25 keyword search) and return relevant chunks.
     Use this whenever the user asks about topics covered in the indexed documents,
-    such as Vincit, Siili, AI-powered development, testing, sales materials, or related topics.
+    such as Vincit, Siili, AI-powered development, testing, sales materials, HIFK or related topics.
     """
     logging.debug(f"search_documents called: {query!r}")
     docs = await asyncio.to_thread(_retriever.invoke, query)
