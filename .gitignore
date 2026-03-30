@@ -19,3 +19,6 @@ bm25_retriever.pkl
 
 # Uploaded documents (temporary, managed by web_app.py)
 uploads/
+
+# Windows artifact
+NUL

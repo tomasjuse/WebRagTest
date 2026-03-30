@@ -1,0 +1,826 @@
+[
+    {
+        "id": 0,
+        "query": "Super Bowl 2021 location",
+        "answer": "Tampa, Florida"
+    },
+    {
+        "id": 1,
+        "query": "Which country won the most medals at the 2018 Winter Olympics?",
+        "answer": "Norway"
+    },
+    {
+        "id": 2,
+        "query": "Who acquired Instagram?",
+        "answer": "Facebook"
+    },
+    {
+        "id": 3,
+        "query": "Who acquired WhatsApp?",
+        "answer": "Facebook"
+    },
+    {
+        "id": 4,
+        "query": "Who won the women's singles Wimbledon in 2019?",
+        "answer": "Simona Halep"
+    },
+    {
+        "id": 5,
+        "query": "Who won the women's singles Wimbledon in 2018?",
+        "answer": "Angelique Kerber"
+    },
+    {
+        "id": 6,
+        "query": "Who won the women's singles Wimbledon in 2021?",
+        "answer": "Ashleigh Barty"
+    },
+    {
+        "id": 7,
+        "query": "Who won the men's singles Wimbledon in 2013?",
+        "answer": "Andy Murray"
+    },
+    {
+        "id": 8,
+        "query": "Who won the women's singles U.S. Open in 2021?",
+        "answer": "Emma Raducanu"
+    },
+    {
+        "id": 9,
+        "query": "Who won the men's singles U.S. Open in 2020?",
+        "answer": "Dominic Thiem"
+    },
+    {
+        "id": 10,
+        "query": "Who won the women's singles U.S. Open in 2019?",
+        "answer": "Bianca Andreescu"
+    },
+    {
+        "id": 11,
+        "query": "Who won the men's singles U.S. Open 2021?",
+        "answer": "Daniil Medvedev"
+    },
+    {
+        "id": 12,
+        "query": "What was Tesla's revenue in Q1 2021?",
+        "answer": "$10.4 billion"
+    },
+    {
+        "id": 13,
+        "query": "What was Tesla's revenue in Q2 2020?",
+        "answer": "$6.04 billion"
+    },
+    {
+        "id": 14,
+        "query": "What was Tesla's revenue in Q3 2019?",
+        "answer": "$6.3 billion"
+    },
+    {
+        "id": 15,
+        "query": "When was Splatoon 2 released?",
+        "answer": [
+            [
+                "July 21 2017",
+                "Jul 21, 2017",
+                "Jul. 21, 2017",
+                "July 21, 2017",
+                "21 July 2017",
+                "21 Jul, 2017",
+                "21 Jul., 2017",
+                "21 July, 2017"
+            ]
+        ]
+    },
+    {
+        "id": 16,
+        "query": "Who acquired 20th Century Fox?",
+        "answer": "Disney"
+    },
+    {
+        "id": 17,
+        "query": "Who won the French Presidential Election 2017?",
+        "answer": "Emmanuel Macron"
+    },
+    {
+        "id": 18,
+        "query": "Who won the US Presidential Election 2020?",
+        "answer": "Joe Biden"
+    },
+    {
+        "id": 19,
+        "query": "When was Diablo 3 released?",
+        "answer": [
+            [
+                "May 15 2012",
+                "May 15, 2012",
+                "May. 15, 2012",
+                "May 15, 2012",
+                "15 May 2012",
+                "15 May, 2012",
+                "15 May., 2012",
+                "15 May, 2012"
+            ]
+        ]
+    },
+    {
+        "id": 20,
+        "query": "Who won the 2021 Tour de France?",
+        "answer": "Tadej Pogačar"
+    },
+    {
+        "id": 21,
+        "query": "Who won the 2019 Tour de France?",
+        "answer": "Egan Bernal"
+    },
+    {
+        "id": 22,
+        "query": "When was xenoblade chronicles 2 released?",
+        "answer": [
+            [
+                "December 1 2017",
+                "Dec 1, 2017",
+                "Dec. 1, 2017",
+                "December 1, 2017",
+                "1 December 2017",
+                "1 Dec, 2017",
+                "1 Dec., 2017",
+                "1 December, 2017"
+            ]
+        ]
+    },
+    {
+        "id": 23,
+        "query": "When was xenoblade chronicles X released in Japan?",
+        "answer": [
+            [
+                "April 29 2015",
+                "Apr 29, 2015",
+                "Apr. 29, 2015",
+                "April 29, 2015",
+                "29 April 2015",
+                "29 Apr, 2015",
+                "29 Apr., 2015",
+                "29 April, 2015"
+            ]
+        ]
+    },
+    {
+        "id": 24,
+        "query": "When was xenoblade chronicles Definite Edition released?",
+        "answer": [
+            [
+                "May 29 2020",
+                "May 29, 2020",
+                "May. 29, 2020",
+                "May 29, 2020",
+                "29 May 2020",
+                "29 May, 2020",
+                "29 May., 2020",
+                "29 May, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 25,
+        "query": "When was GPT-3 released?",
+        "answer": [
+            [
+                "June 2020",
+                "Jun 2020",
+                "Jun. 2020",
+                "June, 2020",
+                "Jun, 2020",
+                "Jun., 2020"
+            ]
+        ]
+    },
+    {
+        "id": 26,
+        "query": "When was OpenAI founded?",
+        "answer": [
+            [
+                "December 2015",
+                "Dec 2015",
+                "Dec. 2015",
+                "December, 2015",
+                "Dec, 2015",
+                "Dec., 2015"
+            ]
+        ]
+    },
+    {
+        "id": 27,
+        "query": "Who is the Heisman Trophy winner in 2012?",
+        "answer": "Johnny Manziel"
+    },
+    {
+        "id": 28,
+        "query": "Who is the Walter Camp Award winner in 2017?",
+        "answer": "Baker Mayfield"
+    },
+    {
+        "id": 29,
+        "query": "Who is the Maxwell Award winner in 2019?",
+        "answer": "Joe Burrow"
+    },
+    {
+        "id": 30,
+        "query": "Who is the director of the Avatar movie?",
+        "answer": "James Cameron"
+    },
+    {
+        "id": 31,
+        "query": "Who is the director of the Silent Hill movie?",
+        "answer": "Christophe Gans"
+    },
+    {
+        "id": 32,
+        "query": "Who is the director of the Assassin's Creed movie?",
+        "answer": "Justin Kurzel"
+    },
+    {
+        "id": 33,
+        "query": "What is the premiere date of Grey's Anatomy Season 17?",
+        "answer": [
+            [
+                "November 12 2020",
+                "Nov 12, 2020",
+                "Nov. 12, 2020",
+                "November 12, 2020",
+                "12 November 2020",
+                "12 Nov, 2020",
+                "12 Nov., 2020",
+                "12 November, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 34,
+        "query": "What is the premiere date of The Walking Dead Season 11?",
+        "answer": [
+            [
+                "August 22 2021",
+                "Aug 22, 2021",
+                "Aug. 22, 2021",
+                "August 22, 2021",
+                "22 August 2021",
+                "22 Aug, 2021",
+                "22 Aug., 2021",
+                "22 August, 2021"
+            ]
+        ]
+    },
+    {
+        "id": 35,
+        "query": "Who won the World Cup Final in 2018?",
+        "answer": "France"
+    },
+    {
+        "id": 36,
+        "query": "Who won the World Cup Final in 2014?",
+        "answer": "Germany"
+    },
+    {
+        "id": 37,
+        "query": "Who won the World Cup Final in 2010?",
+        "answer": "Spain"
+    },
+    {
+        "id": 38,
+        "query": "When was Marvel's Spider-Man released?",
+        "answer": [
+            [
+                "September 7 2018",
+                "Sep 7, 2018",
+                "Sep. 7, 2018",
+                "September 7, 2018",
+                "7 September 2018",
+                "7 Sep, 2018",
+                "7 Sep., 2018",
+                "7 September, 2018"
+            ]
+        ]
+    },
+    {
+        "id": 39,
+        "query": "When was Assassin's Creed Valhalla released?",
+        "answer": [
+            [
+                "November 10 2020",
+                "Nov 10, 2020",
+                "Nov. 10, 2020",
+                "November 10, 2020",
+                "10 November 2020",
+                "10 Nov, 2020",
+                "10 Nov., 2020",
+                "10 November, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 40,
+        "query": "When does the iPhone 11 release?",
+        "answer": [
+            [
+                "September 20 2019",
+                "Sep 20, 2019",
+                "Sep. 20, 2019",
+                "September 20, 2019",
+                "20 September 2019",
+                "20 Sep, 2019",
+                "20 Sep., 2019",
+                "20 September, 2019"
+            ]
+        ]
+    },
+    {
+        "id": 41,
+        "query": "What is women's year-end No 1 in tennis in 2020?",
+        "answer": "Ashleigh Barty"
+    },
+    {
+        "id": 42,
+        "query": "What is men's year-end No 1 in tennis in 2019?",
+        "answer": "Rafael Nadal"
+    },
+    {
+        "id": 43,
+        "query": "How much did Google acquire YouTube for?",
+        "answer": "$1.65 billion"
+    },
+    {
+        "id": 44,
+        "query": "when was The Legend of Zelda: Breath of the Wild released?",
+        "answer": [
+            [
+                "March 3 2017",
+                "Mar 3, 2017",
+                "Mar. 3, 2017",
+                "March 3, 2017",
+                "3 March 2017",
+                "3 Mar, 2017",
+                "3 Mar., 2017",
+                "3 March, 2017"
+            ]
+        ]
+    },
+    {
+        "id": 45,
+        "query": "when was The Legend of Zelda: Ocarina of Time released?",
+        "answer": [
+            [
+                "November 21 1998",
+                "Nov 21, 1998",
+                "Nov. 21, 1998",
+                "November 21, 1998",
+                "21 November 1998",
+                "21 Nov, 1998",
+                "21 Nov., 1998",
+                "21 November, 1998"
+            ]
+        ]
+    },
+    {
+        "id": 46,
+        "query": "when was Xenoblade Chronicles 2 released?",
+        "answer": [
+            [
+                "December 1 2017",
+                "Dec 1, 2017",
+                "Dec. 1, 2017",
+                "December 1, 2017",
+                "1 December 2017",
+                "1 Dec, 2017",
+                "1 Dec., 2017",
+                "1 December, 2017"
+            ]
+        ]
+    },
+    {
+        "id": 47,
+        "query": "When did the Golden Globe Awards 2020 take place?",
+        "answer": [
+            [
+                "January 5 2020",
+                "Jan 5, 2020",
+                "Jan. 5, 2020",
+                "January 5, 2020",
+                "5 January 2020",
+                "5 Jan, 2020",
+                "5 Jan., 2020",
+                "5 January, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 48,
+        "query": "Who was awarded the 2021 Nobel Prize in Literature?",
+        "answer": "Abdulrazak Gurnah"
+    },
+    {
+        "id": 49,
+        "query": "Who was awarded the 2019 Nobel Prize in Literature?",
+        "answer": "Peter Handke"
+    },
+    {
+        "id": 50,
+        "query": "Who was awarded the 2018 Nobel Prize in Literature?",
+        "answer": "Olga Tokarczuk"
+    },
+    {
+        "id": 51,
+        "query": "What is the release date of God of War (2018)?",
+        "answer": [
+            [
+                "April 20 2018",
+                "Apr 20, 2018",
+                "Apr. 20, 2018",
+                "April 20, 2018",
+                "20 April 2018",
+                "20 Apr, 2018",
+                "20 Apr., 2018",
+                "20 April, 2018"
+            ]
+        ]
+    },
+    {
+        "id": 52,
+        "query": "What is the release date of The Last of Us Part II?",
+        "answer": [
+            [
+                "June 19 2020",
+                "Jun 19, 2020",
+                "Jun. 19, 2020",
+                "June 19, 2020",
+                "19 June 2020",
+                "19 Jun, 2020",
+                "19 Jun., 2020",
+                "19 June, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 53,
+        "query": "What is the release date of Cyberpunk 2077?",
+        "answer": [
+            [
+                "December 10 2020",
+                "Dec 10, 2020",
+                "Dec. 10, 2020",
+                "December 10, 2020",
+                "10 December 2020",
+                "10 Dec, 2020",
+                "10 Dec., 2020",
+                "10 December, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 54,
+        "query": "When does season 4 of The Crown premiere?",
+        "answer": [
+            [
+                "November 15 2020",
+                "Nov 15, 2020",
+                "Nov. 15, 2020",
+                "November 15, 2020",
+                "15 November 2020",
+                "15 Nov, 2020",
+                "15 Nov., 2020",
+                "15 November, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 55,
+        "query": "When does season 3 of The Crown premiere?",
+        "answer": [
+            [
+                "November 17 2019",
+                "Nov 17, 2019",
+                "Nov. 17, 2019",
+                "November 17, 2019",
+                "17 November 2019",
+                "17 Nov, 2019",
+                "17 Nov., 2019",
+                "17 November, 2019"
+            ]
+        ]
+    },
+    {
+        "id": 56,
+        "query": "Who directed Titanic?",
+        "answer": "James Cameron"
+    },
+    {
+        "id": 57,
+        "query": "Who directed The Avengers?",
+        "answer": "Joss Whedon"
+    },
+    {
+        "id": 58,
+        "query": "Who is starring as Mulan in the movie \"Mulan\"?",
+        "answer": "Yifei Liu"
+    },
+    {
+        "id": 59,
+        "query": "Who is the president of the NFL?",
+        "answer": "Roger Goodell"
+    },
+    {
+        "id": 60,
+        "query": "Who is the president of the FIFA?",
+        "answer": "Gianni Infantino"
+    },
+    {
+        "id": 61,
+        "query": "Who is the CEO of Facebook in 2021?",
+        "answer": "Mark Zuckerberg"
+    },
+    {
+        "id": 62,
+        "query": "Who is the CEO of Tesla in 2021?",
+        "answer": "Elon Musk"
+    },
+    {
+        "id": 63,
+        "query": "What movie won the Oscar for Best Animated Film in 2021?",
+        "answer": "Soul"
+    },
+    {
+        "id": 64,
+        "query": "What movie won the Oscar for Best Animated Film in 2020?",
+        "answer": "Toy Story 4"
+    },
+    {
+        "id": 65,
+        "query": "Who will be playing the role of Billy Batson in Shazam!?",
+        "answer": "Asher Angel"
+    },
+    {
+        "id": 66,
+        "query": "Who will be playing the role of Diana Prince in Wonder Woman 1984?",
+        "answer": "Gal Gadot"
+    },
+    {
+        "id": 67,
+        "query": "Who was the runner-up of the 2018 World Cup?",
+        "answer": "Croatia"
+    },
+    {
+        "id": 68,
+        "query": "Who was the runner-up of the 2014 World Cup?",
+        "answer": "Argentina"
+    },
+    {
+        "id": 69,
+        "query": "Who was the runner-up of the 2010 World Cup?",
+        "answer": "Netherlands"
+    },
+    {
+        "id": 70,
+        "query": "When will the first season of The Blacklist premiere?",
+        "answer": [
+            [
+                "September 23 2013",
+                "Sep 23, 2013",
+                "Sep. 23, 2013",
+                "September 23, 2013",
+                "23 September 2013",
+                "23 Sep, 2013",
+                "23 Sep., 2013",
+                "23 September, 2013"
+            ]
+        ]
+    },
+    {
+        "id": 71,
+        "query": "What is the release date for Animal Crossing: New Horizons on Nintendo Switch?",
+        "answer": [
+            [
+                "March 20 2020",
+                "Mar 20, 2020",
+                "Mar. 20, 2020",
+                "March 20, 2020",
+                "20 March 2020",
+                "20 Mar, 2020",
+                "20 Mar., 2020",
+                "20 March, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 72,
+        "query": "What is the release date for Super Mario Odyssey on Nintendo Switch?",
+        "answer": [
+            [
+                "October 27 2017",
+                "Oct 27, 2017",
+                "Oct. 27, 2017",
+                "October 27, 2017",
+                "27 October 2017",
+                "27 Oct, 2017",
+                "27 Oct., 2017",
+                "27 October, 2017"
+            ]
+        ]
+    },
+    {
+        "id": 73,
+        "query": "Which movie won Best Picture at the 90th Academy Awards Ceremony?",
+        "answer": "The Shape of Water"
+    },
+    {
+        "id": 74,
+        "query": "Which actor won Best Actor at the 92nd Academy Awards Ceremony?",
+        "answer": "Joaquin Phoenix"
+    },
+    {
+        "id": 75,
+        "query": "Which director won Best Director at the 93rd Academy Awards Ceremony?",
+        "answer": "Chloé Zhao"
+    },
+    {
+        "id": 76,
+        "query": "Who is the CEO of Lego in 2021?",
+        "answer": "Niels B. Christiansen"
+    },
+    {
+        "id": 77,
+        "query": "Who is the CEO of Nintendo in 2021?",
+        "answer": "Shuntaro Furukawa"
+    },
+    {
+        "id": 78,
+        "query": "Who was named the 2021 National Teacher of the Year?",
+        "answer": "Juliana Urtubey"
+    },
+    {
+        "id": 79,
+        "query": "Who was named the 2020 National Teacher of the Year?",
+        "answer": "Tabatha Rosproy"
+    },
+    {
+        "id": 80,
+        "query": "Who is the lead actress in La La Land?",
+        "answer": "Emma Stone"
+    },
+    {
+        "id": 81,
+        "query": "Who is the lead actress in The Shape of Water?",
+        "answer": "Sally Hawkins"
+    },
+    {
+        "id": 82,
+        "query": "Who is the director of \"Pretty Woman\"?",
+        "answer": "Garry Marshall"
+    },
+    {
+        "id": 83,
+        "query": "Who is the director of \"The Godfather\"?",
+        "answer": "Francis Ford Coppola"
+    },
+    {
+        "id": 84,
+        "query": "Who is the director of \"Bohemian Rhapsody\"?",
+        "answer": "Bryan Singer"
+    },
+    {
+        "id": 85,
+        "query": "which city hosted the olympic games in 2012?",
+        "answer": "London"
+    },
+    {
+        "id": 86,
+        "query": "Who is the new CEO of Vanguard?",
+        "answer": "Tim Buckley"
+    },
+    {
+        "id": 87,
+        "query": "Who is the new CEO of Fidelity Investments?",
+        "answer": "Abigail Johnson"
+    },
+    {
+        "id": 88,
+        "query": "When was Pixel 6 announced?",
+        "answer": [
+            [
+                "October 19 2021",
+                "Oct 19, 2021",
+                "Oct. 19, 2021",
+                "October 19, 2021",
+                "19 October 2021",
+                "19 Oct, 2021",
+                "19 Oct., 2021",
+                "19 October, 2021"
+            ]
+        ]
+    },
+    {
+        "id": 89,
+        "query": "When was Pixel 5a announced?",
+        "answer": [
+            [
+                "August 17 2021",
+                "Aug 17, 2021",
+                "Aug. 17, 2021",
+                "August 17, 2021",
+                "17 August 2021",
+                "17 Aug, 2021",
+                "17 Aug., 2021",
+                "17 August, 2021"
+            ]
+        ]
+    },
+    {
+        "id": 90,
+        "query": "What is the name of Amazon's ai assistant in office?",
+        "answer": "Alexa"
+    },
+    {
+        "id": 91,
+        "query": "What is the date of the 2020 NBA Draft?",
+        "answer": [
+            [
+                "November 18 2020",
+                "Nov 18, 2020",
+                "Nov. 18, 2020",
+                "November 18, 2020",
+                "18 November 2020",
+                "18 Nov, 2020",
+                "18 Nov., 2020",
+                "18 November, 2020"
+            ]
+        ]
+    },
+    {
+        "id": 92,
+        "query": "What is the date of the 2021 NBA Draft?",
+        "answer": [
+            [
+                "July 29 2021",
+                "Jul 29, 2021",
+                "Jul. 29, 2021",
+                "July 29, 2021",
+                "29 July 2021",
+                "29 Jul, 2021",
+                "29 Jul., 2021",
+                "29 July, 2021"
+            ]
+        ]
+    },
+    {
+        "id": 93,
+        "query": "What is the name of Microsoft's AR headset?",
+        "answer": "HoloLens"
+    },
+    {
+        "id": 94,
+        "query": "Who is the CEO of Google in 2021?",
+        "answer": "Sundar Pichai"
+    },
+    {
+        "id": 95,
+        "query": "Who is the CEO of Apple in 2021?",
+        "answer": "Tim Cook"
+    },
+    {
+        "id": 96,
+        "query": "Who won the Masters golf tournament in 2021?",
+        "answer": "Hideki Matsuyama"
+    },
+    {
+        "id": 97,
+        "query": "Who won the British Open golf tournament in 2020?",
+        "answer": "Shane Lowry"
+    },
+    {
+        "id": 98,
+        "query": "which city hosted the olympic games in 2008?",
+        "answer": "Beijing"
+    },
+    {
+        "id": 99,
+        "query": "which city hosted the olympic games in 2004?",
+        "answer": "Athens"
+    },
+    {
+        "id": 100,
+        "query": "Who is the coach for HIFK?",
+        "answer": "OJ Jokinen"
+    },
+    {
+        "id": 101,
+        "query": "Who is HIFKs best player",
+        "answer": "Aku ankka"
+    },
+	{
+        "id": 102,
+        "query": "Where is Vincit's espresso coffe machine",
+        "answer": "On 5th floor"
+    },
+	{
+        "id": 103,
+        "query": "Where is Vincit's office in Helsinki",
+        "answer": "On Freda"
+    }
+]
