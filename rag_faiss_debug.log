@@ -1,0 +1,789 @@
+2026-04-03 14:19:22,203 DEBUG rag_faiss.py starting
+2026-04-03 14:19:22,203 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-03 14:19:28,886 DEBUG imports done
+2026-04-03 14:19:29,277 DEBUG loading FAISS retriever...
+2026-04-03 14:19:32,850 INFO Use pytorch device_name: cpu
+2026-04-03 14:19:32,850 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-03 14:19:33,428 DEBUG embeddings loaded
+2026-04-03 14:19:33,430 DEBUG Using AVX2 as an instruction set.
+2026-04-03 14:19:33,430 INFO Loading faiss with AVX2 support.
+2026-04-03 14:19:33,640 INFO Successfully loaded faiss with AVX2 support.
+2026-04-03 14:19:33,653 DEBUG FAISS retriever loaded
+2026-04-03 14:19:33,658 DEBUG Initializing server 'RagFAISS'
+2026-04-03 14:19:33,658 DEBUG Registering handler for ListToolsRequest
+2026-04-03 14:19:33,658 DEBUG Registering handler for CallToolRequest
+2026-04-03 14:19:33,658 DEBUG Registering handler for ListResourcesRequest
+2026-04-03 14:19:33,659 DEBUG Registering handler for ReadResourceRequest
+2026-04-03 14:19:33,659 DEBUG Registering handler for PromptListRequest
+2026-04-03 14:19:33,659 DEBUG Registering handler for GetPromptRequest
+2026-04-03 14:19:33,659 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-03 14:19:33,672 DEBUG calling mcp.run()
+2026-04-03 14:19:33,678 DEBUG Using proactor: IocpProactor
+2026-04-03 14:19:33,685 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=NotificationParams(meta=None), jsonrpc='2.0')
+2026-04-03 14:19:33,686 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002549239CF50>
+2026-04-03 14:19:33,686 INFO Processing request of type ListToolsRequest
+2026-04-03 14:19:33,686 DEBUG Dispatching request of type ListToolsRequest
+2026-04-03 14:19:33,686 DEBUG Response sent
+2026-04-03 14:22:21,574 DEBUG mcp.run() returned
+2026-04-04 11:42:17,347 DEBUG rag_faiss.py starting
+2026-04-04 11:42:17,347 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 11:50:14,785 DEBUG rag_faiss.py starting
+2026-04-04 11:50:14,785 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 11:50:22,928 DEBUG imports done
+2026-04-04 11:50:23,350 DEBUG loading FAISS retriever...
+2026-04-04 11:50:33,275 INFO Use pytorch device_name: cpu
+2026-04-04 11:50:33,276 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-04 11:50:34,001 DEBUG embeddings loaded
+2026-04-04 11:50:34,004 DEBUG Using AVX2 as an instruction set.
+2026-04-04 11:50:34,004 INFO Loading faiss with AVX2 support.
+2026-04-04 11:50:34,460 INFO Successfully loaded faiss with AVX2 support.
+2026-04-04 11:50:34,494 DEBUG FAISS retriever loaded
+2026-04-04 11:50:34,497 DEBUG Initializing server 'RagFAISS'
+2026-04-04 11:50:34,497 DEBUG Registering handler for ListToolsRequest
+2026-04-04 11:50:34,497 DEBUG Registering handler for CallToolRequest
+2026-04-04 11:50:34,498 DEBUG Registering handler for ListResourcesRequest
+2026-04-04 11:50:34,498 DEBUG Registering handler for ReadResourceRequest
+2026-04-04 11:50:34,498 DEBUG Registering handler for PromptListRequest
+2026-04-04 11:50:34,498 DEBUG Registering handler for GetPromptRequest
+2026-04-04 11:50:34,498 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-04 11:50:34,509 DEBUG calling mcp.run()
+2026-04-04 11:50:34,514 DEBUG Using proactor: IocpProactor
+2026-04-04 11:50:34,521 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-04 11:50:34,522 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002A78E1A8F50>
+2026-04-04 11:50:34,522 INFO Processing request of type ListToolsRequest
+2026-04-04 11:50:34,523 DEBUG Dispatching request of type ListToolsRequest
+2026-04-04 11:50:34,523 DEBUG Response sent
+2026-04-04 11:50:34,524 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002A78E1A8410>
+2026-04-04 11:50:34,524 INFO Processing request of type ListPromptsRequest
+2026-04-04 11:50:34,524 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-04 11:50:34,525 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002A78E331BA0>
+2026-04-04 11:50:34,525 INFO Processing request of type ListResourcesRequest
+2026-04-04 11:50:34,525 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-04 11:50:34,525 DEBUG Listing resources
+2026-04-04 11:50:34,526 DEBUG Response sent
+2026-04-04 11:50:34,526 DEBUG Response sent
+2026-04-04 11:52:21,985 DEBUG mcp.run() returned
+2026-04-04 11:52:27,126 DEBUG rag_faiss.py starting
+2026-04-04 11:52:27,127 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 11:52:32,521 DEBUG imports done
+2026-04-04 11:52:32,993 DEBUG loading FAISS retriever...
+2026-04-04 11:52:36,571 INFO Use pytorch device_name: cpu
+2026-04-04 11:52:36,571 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-04 11:52:37,160 DEBUG embeddings loaded
+2026-04-04 11:52:37,162 DEBUG Using AVX2 as an instruction set.
+2026-04-04 11:52:37,162 INFO Loading faiss with AVX2 support.
+2026-04-04 11:52:37,329 INFO Successfully loaded faiss with AVX2 support.
+2026-04-04 11:52:37,337 DEBUG FAISS retriever loaded
+2026-04-04 11:52:37,341 DEBUG Initializing server 'RagFAISS'
+2026-04-04 11:52:37,341 DEBUG Registering handler for ListToolsRequest
+2026-04-04 11:52:37,341 DEBUG Registering handler for CallToolRequest
+2026-04-04 11:52:37,341 DEBUG Registering handler for ListResourcesRequest
+2026-04-04 11:52:37,342 DEBUG Registering handler for ReadResourceRequest
+2026-04-04 11:52:37,342 DEBUG Registering handler for PromptListRequest
+2026-04-04 11:52:37,342 DEBUG Registering handler for GetPromptRequest
+2026-04-04 11:52:37,342 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-04 11:52:37,353 DEBUG calling mcp.run()
+2026-04-04 11:52:37,358 DEBUG Using proactor: IocpProactor
+2026-04-04 11:52:37,365 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-04 11:52:37,366 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000221DA3D0F50>
+2026-04-04 11:52:37,366 INFO Processing request of type ListToolsRequest
+2026-04-04 11:52:37,366 DEBUG Dispatching request of type ListToolsRequest
+2026-04-04 11:52:37,366 DEBUG Response sent
+2026-04-04 11:52:37,367 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000221DA3D0410>
+2026-04-04 11:52:37,367 INFO Processing request of type ListPromptsRequest
+2026-04-04 11:52:37,367 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-04 11:52:37,368 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000221DA2E1BA0>
+2026-04-04 11:52:37,368 INFO Processing request of type ListResourcesRequest
+2026-04-04 11:52:37,368 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-04 11:52:37,368 DEBUG Listing resources
+2026-04-04 11:52:37,369 DEBUG Response sent
+2026-04-04 11:52:37,369 DEBUG Response sent
+2026-04-04 11:53:37,651 DEBUG mcp.run() returned
+2026-04-04 11:54:04,706 DEBUG rag_faiss.py starting
+2026-04-04 11:54:04,707 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 11:54:10,024 DEBUG imports done
+2026-04-04 11:54:10,411 DEBUG loading FAISS retriever...
+2026-04-04 11:54:13,732 INFO Use pytorch device_name: cpu
+2026-04-04 11:54:13,732 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-04 11:54:14,327 DEBUG embeddings loaded
+2026-04-04 11:54:14,330 DEBUG Using AVX2 as an instruction set.
+2026-04-04 11:54:14,330 INFO Loading faiss with AVX2 support.
+2026-04-04 11:54:14,490 INFO Successfully loaded faiss with AVX2 support.
+2026-04-04 11:54:14,499 DEBUG FAISS retriever loaded
+2026-04-04 11:54:14,502 DEBUG Initializing server 'RagFAISS'
+2026-04-04 11:54:14,503 DEBUG Registering handler for ListToolsRequest
+2026-04-04 11:54:14,503 DEBUG Registering handler for CallToolRequest
+2026-04-04 11:54:14,503 DEBUG Registering handler for ListResourcesRequest
+2026-04-04 11:54:14,503 DEBUG Registering handler for ReadResourceRequest
+2026-04-04 11:54:14,503 DEBUG Registering handler for PromptListRequest
+2026-04-04 11:54:14,504 DEBUG Registering handler for GetPromptRequest
+2026-04-04 11:54:14,504 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-04 11:54:14,514 DEBUG calling mcp.run()
+2026-04-04 11:54:14,519 DEBUG Using proactor: IocpProactor
+2026-04-04 11:54:14,526 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-04 11:54:14,527 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000023F1109CF50>
+2026-04-04 11:54:14,527 INFO Processing request of type ListToolsRequest
+2026-04-04 11:54:14,527 DEBUG Dispatching request of type ListToolsRequest
+2026-04-04 11:54:14,528 DEBUG Response sent
+2026-04-04 11:54:14,528 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000023F1109C410>
+2026-04-04 11:54:14,529 INFO Processing request of type ListPromptsRequest
+2026-04-04 11:54:14,529 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-04 11:54:14,530 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000023F10F5DBA0>
+2026-04-04 11:54:14,530 INFO Processing request of type ListResourcesRequest
+2026-04-04 11:54:14,530 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-04 11:54:14,530 DEBUG Listing resources
+2026-04-04 11:54:14,531 DEBUG Response sent
+2026-04-04 11:54:14,532 DEBUG Response sent
+2026-04-04 12:00:27,513 DEBUG rag_faiss.py starting
+2026-04-04 12:00:27,513 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 12:00:32,794 DEBUG imports done
+2026-04-04 12:00:33,193 DEBUG loading FAISS retriever...
+2026-04-04 12:00:36,519 INFO Use pytorch device_name: cpu
+2026-04-04 12:00:36,519 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-04 12:00:37,099 DEBUG embeddings loaded
+2026-04-04 12:00:37,101 DEBUG Using AVX2 as an instruction set.
+2026-04-04 12:00:37,101 INFO Loading faiss with AVX2 support.
+2026-04-04 12:00:37,254 INFO Successfully loaded faiss with AVX2 support.
+2026-04-04 12:00:37,262 DEBUG FAISS retriever loaded
+2026-04-04 12:00:37,266 DEBUG Initializing server 'RagFAISS'
+2026-04-04 12:00:37,266 DEBUG Registering handler for ListToolsRequest
+2026-04-04 12:00:37,266 DEBUG Registering handler for CallToolRequest
+2026-04-04 12:00:37,266 DEBUG Registering handler for ListResourcesRequest
+2026-04-04 12:00:37,266 DEBUG Registering handler for ReadResourceRequest
+2026-04-04 12:00:37,266 DEBUG Registering handler for PromptListRequest
+2026-04-04 12:00:37,267 DEBUG Registering handler for GetPromptRequest
+2026-04-04 12:00:37,267 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-04 12:00:37,278 DEBUG calling mcp.run()
+2026-04-04 12:00:37,284 DEBUG Using proactor: IocpProactor
+2026-04-04 12:00:37,291 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-04 12:00:37,292 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002D48E09CF50>
+2026-04-04 12:00:37,292 INFO Processing request of type ListToolsRequest
+2026-04-04 12:00:37,292 DEBUG Dispatching request of type ListToolsRequest
+2026-04-04 12:00:37,293 DEBUG Response sent
+2026-04-04 12:00:37,293 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002D48E09C410>
+2026-04-04 12:00:37,293 INFO Processing request of type ListPromptsRequest
+2026-04-04 12:00:37,294 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-04 12:00:37,294 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002D48DF5DBA0>
+2026-04-04 12:00:37,294 INFO Processing request of type ListResourcesRequest
+2026-04-04 12:00:37,295 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-04 12:00:37,295 DEBUG Listing resources
+2026-04-04 12:00:37,295 DEBUG Response sent
+2026-04-04 12:00:37,296 DEBUG Response sent
+2026-04-04 12:01:16,065 DEBUG mcp.run() returned
+2026-04-04 12:02:52,964 DEBUG mcp.run() returned
+2026-04-04 12:05:59,570 DEBUG rag_faiss.py starting
+2026-04-04 12:05:59,570 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 12:06:04,862 DEBUG imports done
+2026-04-04 12:06:05,255 DEBUG loading FAISS retriever...
+2026-04-04 12:06:08,591 INFO Use pytorch device_name: cpu
+2026-04-04 12:06:08,591 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-04 12:06:09,189 DEBUG embeddings loaded
+2026-04-04 12:06:09,191 DEBUG Using AVX2 as an instruction set.
+2026-04-04 12:06:09,191 INFO Loading faiss with AVX2 support.
+2026-04-04 12:06:09,345 INFO Successfully loaded faiss with AVX2 support.
+2026-04-04 12:06:09,353 DEBUG FAISS retriever loaded
+2026-04-04 12:06:09,356 DEBUG Initializing server 'RagFAISS'
+2026-04-04 12:06:09,356 DEBUG Registering handler for ListToolsRequest
+2026-04-04 12:06:09,357 DEBUG Registering handler for CallToolRequest
+2026-04-04 12:06:09,357 DEBUG Registering handler for ListResourcesRequest
+2026-04-04 12:06:09,357 DEBUG Registering handler for ReadResourceRequest
+2026-04-04 12:06:09,357 DEBUG Registering handler for PromptListRequest
+2026-04-04 12:06:09,357 DEBUG Registering handler for GetPromptRequest
+2026-04-04 12:06:09,357 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-04 12:06:09,368 DEBUG calling mcp.run()
+2026-04-04 12:06:09,373 DEBUG Using proactor: IocpProactor
+2026-04-04 12:06:09,380 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-04 12:06:09,380 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001D299638F50>
+2026-04-04 12:06:09,381 INFO Processing request of type ListToolsRequest
+2026-04-04 12:06:09,381 DEBUG Dispatching request of type ListToolsRequest
+2026-04-04 12:06:09,381 DEBUG Response sent
+2026-04-04 12:06:09,382 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001D299638410>
+2026-04-04 12:06:09,382 INFO Processing request of type ListPromptsRequest
+2026-04-04 12:06:09,382 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-04 12:06:09,383 DEBUG Response sent
+2026-04-04 12:06:09,383 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001D2994FE060>
+2026-04-04 12:06:09,383 INFO Processing request of type ListResourcesRequest
+2026-04-04 12:06:09,384 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-04 12:06:09,384 DEBUG Listing resources
+2026-04-04 12:06:09,384 DEBUG Response sent
+2026-04-04 12:08:05,616 DEBUG mcp.run() returned
+2026-04-04 12:10:33,231 DEBUG rag_faiss.py starting
+2026-04-04 12:10:33,232 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 12:10:44,189 DEBUG imports done
+2026-04-04 12:10:44,923 DEBUG loading FAISS retriever...
+2026-04-04 12:10:51,644 INFO Use pytorch device_name: cpu
+2026-04-04 12:10:51,645 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-04 12:10:52,861 DEBUG embeddings loaded
+2026-04-04 12:10:52,865 DEBUG Using AVX2 as an instruction set.
+2026-04-04 12:10:52,865 INFO Loading faiss with AVX2 support.
+2026-04-04 12:10:53,130 INFO Successfully loaded faiss with AVX2 support.
+2026-04-04 12:10:53,146 DEBUG FAISS retriever loaded
+2026-04-04 12:10:53,153 DEBUG Initializing server 'RagFAISS'
+2026-04-04 12:10:53,154 DEBUG Registering handler for ListToolsRequest
+2026-04-04 12:10:53,154 DEBUG Registering handler for CallToolRequest
+2026-04-04 12:10:53,155 DEBUG Registering handler for ListResourcesRequest
+2026-04-04 12:10:53,155 DEBUG Registering handler for ReadResourceRequest
+2026-04-04 12:10:53,155 DEBUG Registering handler for PromptListRequest
+2026-04-04 12:10:53,155 DEBUG Registering handler for GetPromptRequest
+2026-04-04 12:10:53,156 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-04 12:10:53,179 DEBUG calling mcp.run()
+2026-04-04 12:10:53,190 DEBUG Using proactor: IocpProactor
+2026-04-04 12:10:53,203 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-04 12:10:53,205 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000018E1E5ECF50>
+2026-04-04 12:10:53,206 INFO Processing request of type ListToolsRequest
+2026-04-04 12:10:53,206 DEBUG Dispatching request of type ListToolsRequest
+2026-04-04 12:10:53,207 DEBUG Response sent
+2026-04-04 12:10:53,208 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000018E1E5EC410>
+2026-04-04 12:10:53,208 INFO Processing request of type ListPromptsRequest
+2026-04-04 12:10:53,208 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-04 12:10:53,210 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000018E1E4FDBA0>
+2026-04-04 12:10:53,210 INFO Processing request of type ListResourcesRequest
+2026-04-04 12:10:53,210 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-04 12:10:53,210 DEBUG Listing resources
+2026-04-04 12:10:53,211 DEBUG Response sent
+2026-04-04 12:10:53,212 DEBUG Response sent
+2026-04-04 12:17:21,126 DEBUG mcp.run() returned
+2026-04-04 12:25:07,593 DEBUG rag_faiss.py starting
+2026-04-04 12:25:07,593 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-04 12:25:12,946 DEBUG imports done
+2026-04-04 12:25:13,341 DEBUG loading FAISS retriever...
+2026-04-04 12:25:16,608 INFO Use pytorch device_name: cpu
+2026-04-04 12:25:16,608 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-04 12:25:17,190 DEBUG embeddings loaded
+2026-04-04 12:25:17,193 DEBUG Using AVX2 as an instruction set.
+2026-04-04 12:25:17,193 INFO Loading faiss with AVX2 support.
+2026-04-04 12:25:17,344 INFO Successfully loaded faiss with AVX2 support.
+2026-04-04 12:25:17,352 DEBUG FAISS retriever loaded
+2026-04-04 12:25:17,355 DEBUG Initializing server 'RagFAISS'
+2026-04-04 12:25:17,356 DEBUG Registering handler for ListToolsRequest
+2026-04-04 12:25:17,356 DEBUG Registering handler for CallToolRequest
+2026-04-04 12:25:17,356 DEBUG Registering handler for ListResourcesRequest
+2026-04-04 12:25:17,356 DEBUG Registering handler for ReadResourceRequest
+2026-04-04 12:25:17,356 DEBUG Registering handler for PromptListRequest
+2026-04-04 12:25:17,356 DEBUG Registering handler for GetPromptRequest
+2026-04-04 12:25:17,356 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-04 12:25:17,367 DEBUG calling mcp.run()
+2026-04-04 12:25:17,372 DEBUG Using proactor: IocpProactor
+2026-04-04 12:25:17,378 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-04 12:25:17,379 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000019F03BDCF50>
+2026-04-04 12:25:17,379 INFO Processing request of type ListToolsRequest
+2026-04-04 12:25:17,380 DEBUG Dispatching request of type ListToolsRequest
+2026-04-04 12:25:17,380 DEBUG Response sent
+2026-04-04 12:25:17,380 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000019F03BDC410>
+2026-04-04 12:25:17,381 INFO Processing request of type ListPromptsRequest
+2026-04-04 12:25:17,381 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-04 12:25:17,381 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000019F03A9DBA0>
+2026-04-04 12:25:17,382 INFO Processing request of type ListResourcesRequest
+2026-04-04 12:25:17,382 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-04 12:25:17,382 DEBUG Listing resources
+2026-04-04 12:25:17,382 DEBUG Response sent
+2026-04-04 12:25:17,383 DEBUG Response sent
+2026-04-04 12:29:47,158 DEBUG mcp.run() returned
+2026-04-06 08:24:19,370 DEBUG rag_faiss.py starting
+2026-04-06 08:24:19,371 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:26:22,599 DEBUG rag_faiss.py starting
+2026-04-06 08:26:22,600 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:26:28,318 DEBUG imports done
+2026-04-06 08:26:28,727 DEBUG loading FAISS retriever...
+2026-04-06 08:26:38,848 INFO Use pytorch device_name: cpu
+2026-04-06 08:26:38,848 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:26:39,550 DEBUG embeddings loaded
+2026-04-06 08:26:39,553 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:26:39,553 INFO Loading faiss with AVX2 support.
+2026-04-06 08:26:39,997 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:26:40,037 DEBUG FAISS retriever loaded
+2026-04-06 08:26:40,042 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:26:40,043 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:26:40,043 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:26:40,043 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:26:40,044 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:26:40,044 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:26:40,044 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:26:40,044 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:26:40,056 DEBUG calling mcp.run()
+2026-04-06 08:26:40,061 DEBUG Using proactor: IocpProactor
+2026-04-06 08:26:40,068 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:26:40,069 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001EF6C00CF50>
+2026-04-06 08:26:40,069 INFO Processing request of type ListToolsRequest
+2026-04-06 08:26:40,069 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:26:40,070 DEBUG Response sent
+2026-04-06 08:26:40,070 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001EF6C00C410>
+2026-04-06 08:26:40,071 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:26:40,071 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:26:40,072 DEBUG Response sent
+2026-04-06 08:26:40,072 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001EF6BF36060>
+2026-04-06 08:26:40,072 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:26:40,072 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:26:40,072 DEBUG Listing resources
+2026-04-06 08:26:40,073 DEBUG Response sent
+2026-04-06 08:27:31,999 DEBUG mcp.run() returned
+2026-04-06 08:27:37,081 DEBUG rag_faiss.py starting
+2026-04-06 08:27:37,082 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:27:42,347 DEBUG imports done
+2026-04-06 08:27:42,736 DEBUG loading FAISS retriever...
+2026-04-06 08:27:46,227 INFO Use pytorch device_name: cpu
+2026-04-06 08:27:46,227 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:27:46,905 DEBUG embeddings loaded
+2026-04-06 08:27:46,908 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:27:46,908 INFO Loading faiss with AVX2 support.
+2026-04-06 08:27:47,069 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:27:47,078 DEBUG FAISS retriever loaded
+2026-04-06 08:27:47,082 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:27:47,082 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:27:47,082 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:27:47,083 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:27:47,083 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:27:47,083 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:27:47,083 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:27:47,083 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:27:47,095 DEBUG calling mcp.run()
+2026-04-06 08:27:47,100 DEBUG Using proactor: IocpProactor
+2026-04-06 08:27:47,111 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:27:47,112 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000024248890F50>
+2026-04-06 08:27:47,113 INFO Processing request of type ListToolsRequest
+2026-04-06 08:27:47,113 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:27:47,113 DEBUG Response sent
+2026-04-06 08:27:47,114 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000024248890410>
+2026-04-06 08:27:47,114 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:27:47,114 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:27:47,115 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000242487B1BA0>
+2026-04-06 08:27:47,115 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:27:47,115 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:27:47,115 DEBUG Listing resources
+2026-04-06 08:27:47,115 DEBUG Response sent
+2026-04-06 08:27:47,116 DEBUG Response sent
+2026-04-06 08:28:15,120 DEBUG mcp.run() returned
+2026-04-06 08:28:20,313 DEBUG rag_faiss.py starting
+2026-04-06 08:28:20,313 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:28:25,603 DEBUG imports done
+2026-04-06 08:28:26,043 DEBUG loading FAISS retriever...
+2026-04-06 08:28:29,454 INFO Use pytorch device_name: cpu
+2026-04-06 08:28:29,454 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:28:30,041 DEBUG embeddings loaded
+2026-04-06 08:28:30,043 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:28:30,044 INFO Loading faiss with AVX2 support.
+2026-04-06 08:28:30,219 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:28:30,231 DEBUG FAISS retriever loaded
+2026-04-06 08:28:30,235 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:28:30,235 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:28:30,235 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:28:30,235 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:28:30,236 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:28:30,236 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:28:30,236 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:28:30,236 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:28:30,248 DEBUG calling mcp.run()
+2026-04-06 08:28:30,254 DEBUG Using proactor: IocpProactor
+2026-04-06 08:28:30,260 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:28:30,261 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002ADB492CF50>
+2026-04-06 08:28:30,262 INFO Processing request of type ListToolsRequest
+2026-04-06 08:28:30,262 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:28:30,262 DEBUG Response sent
+2026-04-06 08:28:30,262 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002ADB492C410>
+2026-04-06 08:28:30,263 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:28:30,263 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:28:30,263 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002ADB483DBA0>
+2026-04-06 08:28:30,264 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:28:30,264 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:28:30,264 DEBUG Listing resources
+2026-04-06 08:28:30,264 DEBUG Response sent
+2026-04-06 08:28:30,265 DEBUG Response sent
+2026-04-06 08:29:35,540 DEBUG mcp.run() returned
+2026-04-06 08:29:56,908 DEBUG rag_faiss.py starting
+2026-04-06 08:29:56,908 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:30:02,121 DEBUG imports done
+2026-04-06 08:30:02,518 DEBUG loading FAISS retriever...
+2026-04-06 08:30:05,806 INFO Use pytorch device_name: cpu
+2026-04-06 08:30:05,806 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:30:06,383 DEBUG embeddings loaded
+2026-04-06 08:30:06,385 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:30:06,385 INFO Loading faiss with AVX2 support.
+2026-04-06 08:30:06,549 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:30:06,560 DEBUG FAISS retriever loaded
+2026-04-06 08:30:06,564 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:30:06,564 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:30:06,564 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:30:06,564 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:30:06,565 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:30:06,565 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:30:06,565 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:30:06,565 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:30:06,576 DEBUG calling mcp.run()
+2026-04-06 08:30:06,581 DEBUG Using proactor: IocpProactor
+2026-04-06 08:30:06,588 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:30:06,589 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002A79AE90F50>
+2026-04-06 08:30:06,589 INFO Processing request of type ListToolsRequest
+2026-04-06 08:30:06,590 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:30:06,590 DEBUG Response sent
+2026-04-06 08:30:06,591 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002A79AE90410>
+2026-04-06 08:30:06,591 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:30:06,591 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:30:06,591 DEBUG Response sent
+2026-04-06 08:30:06,592 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002A79AD9A060>
+2026-04-06 08:30:06,592 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:30:06,592 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:30:06,592 DEBUG Listing resources
+2026-04-06 08:30:06,593 DEBUG Response sent
+2026-04-06 08:32:22,696 DEBUG mcp.run() returned
+2026-04-06 08:32:27,435 DEBUG rag_faiss.py starting
+2026-04-06 08:32:27,435 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:32:32,655 DEBUG imports done
+2026-04-06 08:32:33,044 DEBUG loading FAISS retriever...
+2026-04-06 08:32:36,319 INFO Use pytorch device_name: cpu
+2026-04-06 08:32:36,319 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:32:36,884 DEBUG embeddings loaded
+2026-04-06 08:32:36,886 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:32:36,886 INFO Loading faiss with AVX2 support.
+2026-04-06 08:32:37,050 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:32:37,061 DEBUG FAISS retriever loaded
+2026-04-06 08:32:37,065 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:32:37,066 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:32:37,066 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:32:37,066 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:32:37,066 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:32:37,066 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:32:37,066 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:32:37,066 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:32:37,079 DEBUG calling mcp.run()
+2026-04-06 08:32:37,084 DEBUG Using proactor: IocpProactor
+2026-04-06 08:32:37,091 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:32:37,092 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001CD99448F50>
+2026-04-06 08:32:37,093 INFO Processing request of type ListToolsRequest
+2026-04-06 08:32:37,093 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:32:37,093 DEBUG Response sent
+2026-04-06 08:32:37,094 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001CD99448410>
+2026-04-06 08:32:37,094 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:32:37,094 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:32:37,095 DEBUG Response sent
+2026-04-06 08:32:37,095 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001CD995D6060>
+2026-04-06 08:32:37,095 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:32:37,095 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:32:37,095 DEBUG Listing resources
+2026-04-06 08:32:37,096 DEBUG Response sent
+2026-04-06 08:32:53,818 DEBUG mcp.run() returned
+2026-04-06 08:32:58,082 DEBUG rag_faiss.py starting
+2026-04-06 08:32:58,082 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:33:03,469 DEBUG imports done
+2026-04-06 08:33:03,852 DEBUG loading FAISS retriever...
+2026-04-06 08:33:07,144 INFO Use pytorch device_name: cpu
+2026-04-06 08:33:07,144 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:33:07,714 DEBUG embeddings loaded
+2026-04-06 08:33:07,717 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:33:07,717 INFO Loading faiss with AVX2 support.
+2026-04-06 08:33:07,893 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:33:07,906 DEBUG FAISS retriever loaded
+2026-04-06 08:33:07,911 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:33:07,912 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:33:07,912 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:33:07,913 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:33:07,913 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:33:07,913 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:33:07,913 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:33:07,913 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:33:07,927 DEBUG calling mcp.run()
+2026-04-06 08:33:07,933 DEBUG Using proactor: IocpProactor
+2026-04-06 08:33:07,939 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:33:07,940 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002601B8ACF50>
+2026-04-06 08:33:07,941 INFO Processing request of type ListToolsRequest
+2026-04-06 08:33:07,941 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:33:07,941 DEBUG Response sent
+2026-04-06 08:33:07,942 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002601B8AC410>
+2026-04-06 08:33:07,942 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:33:07,942 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:33:07,943 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002601B7D1BA0>
+2026-04-06 08:33:07,943 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:33:07,943 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:33:07,943 DEBUG Listing resources
+2026-04-06 08:33:07,944 DEBUG Response sent
+2026-04-06 08:33:07,944 DEBUG Response sent
+2026-04-06 08:33:16,347 DEBUG mcp.run() returned
+2026-04-06 08:34:08,062 DEBUG rag_faiss.py starting
+2026-04-06 08:34:08,063 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:34:13,262 DEBUG imports done
+2026-04-06 08:34:13,651 DEBUG loading FAISS retriever...
+2026-04-06 08:34:17,046 INFO Use pytorch device_name: cpu
+2026-04-06 08:34:17,046 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:34:17,622 DEBUG embeddings loaded
+2026-04-06 08:34:17,624 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:34:17,625 INFO Loading faiss with AVX2 support.
+2026-04-06 08:34:17,808 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:34:17,821 DEBUG FAISS retriever loaded
+2026-04-06 08:34:17,825 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:34:17,826 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:34:17,826 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:34:17,826 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:34:17,827 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:34:17,827 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:34:17,827 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:34:17,827 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:34:17,840 DEBUG calling mcp.run()
+2026-04-06 08:34:17,845 DEBUG Using proactor: IocpProactor
+2026-04-06 08:34:17,853 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:34:17,854 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000022D0D3ACF50>
+2026-04-06 08:34:17,854 INFO Processing request of type ListToolsRequest
+2026-04-06 08:34:17,854 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:34:17,854 DEBUG Response sent
+2026-04-06 08:34:17,855 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000022D0D3AC410>
+2026-04-06 08:34:17,856 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:34:17,856 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:34:17,857 DEBUG Response sent
+2026-04-06 08:34:17,857 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000022D0D286060>
+2026-04-06 08:34:17,857 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:34:17,857 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:34:17,857 DEBUG Listing resources
+2026-04-06 08:34:17,858 DEBUG Response sent
+2026-04-06 08:34:52,178 DEBUG mcp.run() returned
+2026-04-06 08:35:01,026 DEBUG rag_faiss.py starting
+2026-04-06 08:35:01,026 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:35:06,284 DEBUG imports done
+2026-04-06 08:35:06,669 DEBUG loading FAISS retriever...
+2026-04-06 08:35:10,076 INFO Use pytorch device_name: cpu
+2026-04-06 08:35:10,076 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:35:10,686 DEBUG embeddings loaded
+2026-04-06 08:35:10,689 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:35:10,689 INFO Loading faiss with AVX2 support.
+2026-04-06 08:35:10,842 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:35:10,851 DEBUG FAISS retriever loaded
+2026-04-06 08:35:10,854 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:35:10,855 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:35:10,855 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:35:10,855 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:35:10,855 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:35:10,855 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:35:10,855 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:35:10,855 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:35:10,867 DEBUG calling mcp.run()
+2026-04-06 08:35:10,872 DEBUG Using proactor: IocpProactor
+2026-04-06 08:35:10,879 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:35:10,879 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000027EEF9CCF50>
+2026-04-06 08:35:10,880 INFO Processing request of type ListToolsRequest
+2026-04-06 08:35:10,880 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:35:10,880 DEBUG Response sent
+2026-04-06 08:35:10,881 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000027EEF9CC410>
+2026-04-06 08:35:10,881 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:35:10,881 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:35:10,882 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000027EEF8F5BA0>
+2026-04-06 08:35:10,882 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:35:10,882 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:35:10,882 DEBUG Listing resources
+2026-04-06 08:35:10,883 DEBUG Response sent
+2026-04-06 08:35:10,883 DEBUG Response sent
+2026-04-06 08:39:18,904 DEBUG mcp.run() returned
+2026-04-06 08:39:23,416 DEBUG rag_faiss.py starting
+2026-04-06 08:39:23,417 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:39:28,757 DEBUG imports done
+2026-04-06 08:39:29,178 DEBUG loading FAISS retriever...
+2026-04-06 08:39:32,402 INFO Use pytorch device_name: cpu
+2026-04-06 08:39:32,402 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:39:32,981 DEBUG embeddings loaded
+2026-04-06 08:39:32,983 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:39:32,983 INFO Loading faiss with AVX2 support.
+2026-04-06 08:39:33,137 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:39:33,145 DEBUG FAISS retriever loaded
+2026-04-06 08:39:33,149 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:39:33,149 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:39:33,149 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:39:33,149 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:39:33,149 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:39:33,150 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:39:33,150 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:39:33,150 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:39:33,161 DEBUG calling mcp.run()
+2026-04-06 08:39:33,166 DEBUG Using proactor: IocpProactor
+2026-04-06 08:39:33,172 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:39:33,173 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002C3ADC1CF50>
+2026-04-06 08:39:33,173 INFO Processing request of type ListToolsRequest
+2026-04-06 08:39:33,174 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:39:33,174 DEBUG Response sent
+2026-04-06 08:39:33,174 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002C3ADC1C410>
+2026-04-06 08:39:33,174 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:39:33,175 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:39:33,175 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000002C3ADB91BA0>
+2026-04-06 08:39:33,175 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:39:33,175 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:39:33,175 DEBUG Listing resources
+2026-04-06 08:39:33,176 DEBUG Response sent
+2026-04-06 08:39:33,176 DEBUG Response sent
+2026-04-06 08:41:20,494 DEBUG mcp.run() returned
+2026-04-06 08:43:14,169 DEBUG rag_faiss.py starting
+2026-04-06 08:43:14,170 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:43:20,592 DEBUG imports done
+2026-04-06 08:43:21,131 DEBUG loading FAISS retriever...
+2026-04-06 08:43:25,420 INFO Use pytorch device_name: cpu
+2026-04-06 08:43:25,420 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:43:25,999 DEBUG embeddings loaded
+2026-04-06 08:43:26,001 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:43:26,001 INFO Loading faiss with AVX2 support.
+2026-04-06 08:43:26,172 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:43:26,184 DEBUG FAISS retriever loaded
+2026-04-06 08:43:26,189 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:43:26,189 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:43:26,189 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:43:26,189 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:43:26,190 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:43:26,190 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:43:26,190 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:43:26,190 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:43:26,202 DEBUG calling mcp.run()
+2026-04-06 08:43:26,208 DEBUG Using proactor: IocpProactor
+2026-04-06 08:43:26,214 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:43:26,215 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001B5B9C00F50>
+2026-04-06 08:43:26,216 INFO Processing request of type ListToolsRequest
+2026-04-06 08:43:26,216 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:43:26,216 DEBUG Response sent
+2026-04-06 08:43:26,217 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001B5B9C00410>
+2026-04-06 08:43:26,217 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:43:26,217 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:43:26,218 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001B5B9B21BA0>
+2026-04-06 08:43:26,218 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:43:26,218 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:43:26,218 DEBUG Listing resources
+2026-04-06 08:43:26,219 DEBUG Response sent
+2026-04-06 08:43:26,220 DEBUG Response sent
+2026-04-06 08:47:41,956 DEBUG mcp.run() returned
+2026-04-06 08:47:48,971 DEBUG rag_faiss.py starting
+2026-04-06 08:47:48,971 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 08:47:54,202 DEBUG imports done
+2026-04-06 08:47:54,615 DEBUG loading FAISS retriever...
+2026-04-06 08:47:57,912 INFO Use pytorch device_name: cpu
+2026-04-06 08:47:57,912 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 08:47:58,489 DEBUG embeddings loaded
+2026-04-06 08:47:58,491 DEBUG Using AVX2 as an instruction set.
+2026-04-06 08:47:58,492 INFO Loading faiss with AVX2 support.
+2026-04-06 08:47:58,648 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 08:47:58,656 DEBUG FAISS retriever loaded
+2026-04-06 08:47:58,659 DEBUG Initializing server 'RagFAISS'
+2026-04-06 08:47:58,659 DEBUG Registering handler for ListToolsRequest
+2026-04-06 08:47:58,659 DEBUG Registering handler for CallToolRequest
+2026-04-06 08:47:58,660 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 08:47:58,660 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 08:47:58,660 DEBUG Registering handler for PromptListRequest
+2026-04-06 08:47:58,660 DEBUG Registering handler for GetPromptRequest
+2026-04-06 08:47:58,660 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 08:47:58,669 DEBUG calling mcp.run()
+2026-04-06 08:47:58,675 DEBUG Using proactor: IocpProactor
+2026-04-06 08:47:58,681 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 08:47:58,682 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000022AD2E04F50>
+2026-04-06 08:47:58,683 INFO Processing request of type ListToolsRequest
+2026-04-06 08:47:58,683 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 08:47:58,683 DEBUG Response sent
+2026-04-06 08:47:58,684 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000022AD2E04410>
+2026-04-06 08:47:58,684 INFO Processing request of type ListPromptsRequest
+2026-04-06 08:47:58,685 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 08:47:58,685 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000022AD2D35BA0>
+2026-04-06 08:47:58,685 INFO Processing request of type ListResourcesRequest
+2026-04-06 08:47:58,685 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 08:47:58,686 DEBUG Listing resources
+2026-04-06 08:47:58,686 DEBUG Response sent
+2026-04-06 08:47:58,687 DEBUG Response sent
+2026-04-06 09:00:10,165 DEBUG mcp.run() returned
+2026-04-06 09:05:37,687 DEBUG rag_faiss.py starting
+2026-04-06 09:05:37,688 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 09:05:42,857 DEBUG imports done
+2026-04-06 09:05:43,247 DEBUG loading FAISS retriever...
+2026-04-06 09:05:46,484 INFO Use pytorch device_name: cpu
+2026-04-06 09:05:46,484 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 09:05:47,064 DEBUG embeddings loaded
+2026-04-06 09:05:47,067 DEBUG Using AVX2 as an instruction set.
+2026-04-06 09:05:47,067 INFO Loading faiss with AVX2 support.
+2026-04-06 09:05:47,221 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 09:05:47,229 DEBUG FAISS retriever loaded
+2026-04-06 09:05:47,232 DEBUG Initializing server 'RagFAISS'
+2026-04-06 09:05:47,233 DEBUG Registering handler for ListToolsRequest
+2026-04-06 09:05:47,233 DEBUG Registering handler for CallToolRequest
+2026-04-06 09:05:47,233 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 09:05:47,233 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 09:05:47,233 DEBUG Registering handler for PromptListRequest
+2026-04-06 09:05:47,233 DEBUG Registering handler for GetPromptRequest
+2026-04-06 09:05:47,233 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 09:05:47,244 DEBUG calling mcp.run()
+2026-04-06 09:05:47,249 DEBUG Using proactor: IocpProactor
+2026-04-06 09:05:47,255 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 09:05:47,256 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000167BB1CCF50>
+2026-04-06 09:05:47,257 INFO Processing request of type ListToolsRequest
+2026-04-06 09:05:47,257 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 09:05:47,257 DEBUG Response sent
+2026-04-06 09:05:47,258 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000167BB1CC410>
+2026-04-06 09:05:47,258 INFO Processing request of type ListPromptsRequest
+2026-04-06 09:05:47,258 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 09:05:47,259 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000167BB0F5BA0>
+2026-04-06 09:05:47,259 INFO Processing request of type ListResourcesRequest
+2026-04-06 09:05:47,259 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 09:05:47,259 DEBUG Listing resources
+2026-04-06 09:05:47,260 DEBUG Response sent
+2026-04-06 09:05:47,260 DEBUG Response sent
+2026-04-06 09:09:43,574 DEBUG mcp.run() returned
+2026-04-06 09:16:16,786 DEBUG rag_faiss.py starting
+2026-04-06 09:16:16,787 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-06 09:16:22,197 DEBUG imports done
+2026-04-06 09:16:22,595 DEBUG loading FAISS retriever...
+2026-04-06 09:16:25,827 INFO Use pytorch device_name: cpu
+2026-04-06 09:16:25,827 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-06 09:16:26,387 DEBUG embeddings loaded
+2026-04-06 09:16:26,389 DEBUG Using AVX2 as an instruction set.
+2026-04-06 09:16:26,389 INFO Loading faiss with AVX2 support.
+2026-04-06 09:16:26,564 INFO Successfully loaded faiss with AVX2 support.
+2026-04-06 09:16:26,572 DEBUG FAISS retriever loaded
+2026-04-06 09:16:26,575 DEBUG Initializing server 'RagFAISS'
+2026-04-06 09:16:26,575 DEBUG Registering handler for ListToolsRequest
+2026-04-06 09:16:26,575 DEBUG Registering handler for CallToolRequest
+2026-04-06 09:16:26,576 DEBUG Registering handler for ListResourcesRequest
+2026-04-06 09:16:26,576 DEBUG Registering handler for ReadResourceRequest
+2026-04-06 09:16:26,576 DEBUG Registering handler for PromptListRequest
+2026-04-06 09:16:26,576 DEBUG Registering handler for GetPromptRequest
+2026-04-06 09:16:26,576 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-06 09:16:26,585 DEBUG calling mcp.run()
+2026-04-06 09:16:26,590 DEBUG Using proactor: IocpProactor
+2026-04-06 09:16:26,597 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-06 09:16:26,598 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000020D3DA8CF50>
+2026-04-06 09:16:26,598 INFO Processing request of type ListToolsRequest
+2026-04-06 09:16:26,598 DEBUG Dispatching request of type ListToolsRequest
+2026-04-06 09:16:26,598 DEBUG Response sent
+2026-04-06 09:16:26,599 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000020D3DA8C410>
+2026-04-06 09:16:26,599 INFO Processing request of type ListPromptsRequest
+2026-04-06 09:16:26,599 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-06 09:16:26,600 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x0000020D3D99DBA0>
+2026-04-06 09:16:26,600 INFO Processing request of type ListResourcesRequest
+2026-04-06 09:16:26,600 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-06 09:16:26,600 DEBUG Listing resources
+2026-04-06 09:16:26,601 DEBUG Response sent
+2026-04-06 09:16:26,602 DEBUG Response sent
+2026-04-06 09:25:37,587 DEBUG mcp.run() returned
+2026-04-07 14:41:14,883 DEBUG rag_faiss.py starting
+2026-04-07 14:41:14,883 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-07 14:44:06,678 DEBUG rag_faiss.py starting
+2026-04-07 14:44:06,678 DEBUG importing langchain / torch / sentence-transformers ...
+2026-04-07 14:44:12,425 DEBUG imports done
+2026-04-07 14:44:12,828 DEBUG loading FAISS retriever...
+2026-04-07 14:44:25,672 INFO Use pytorch device_name: cpu
+2026-04-07 14:44:25,673 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-07 14:44:26,592 DEBUG embeddings loaded
+2026-04-07 14:44:26,596 DEBUG Using AVX2 as an instruction set.
+2026-04-07 14:44:26,596 INFO Loading faiss with AVX2 support.
+2026-04-07 14:44:27,163 INFO Successfully loaded faiss with AVX2 support.
+2026-04-07 14:44:27,202 DEBUG FAISS retriever loaded
+2026-04-07 14:44:27,206 DEBUG Initializing server 'RagFAISS'
+2026-04-07 14:44:27,206 DEBUG Registering handler for ListToolsRequest
+2026-04-07 14:44:27,206 DEBUG Registering handler for CallToolRequest
+2026-04-07 14:44:27,207 DEBUG Registering handler for ListResourcesRequest
+2026-04-07 14:44:27,207 DEBUG Registering handler for ReadResourceRequest
+2026-04-07 14:44:27,207 DEBUG Registering handler for PromptListRequest
+2026-04-07 14:44:27,207 DEBUG Registering handler for GetPromptRequest
+2026-04-07 14:44:27,207 DEBUG Registering handler for ListResourceTemplatesRequest
+2026-04-07 14:44:27,219 DEBUG calling mcp.run()
+2026-04-07 14:44:27,224 DEBUG Using proactor: IocpProactor
+2026-04-07 14:44:27,232 DEBUG Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-07 14:44:27,232 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000160132ACF50>
+2026-04-07 14:44:27,233 INFO Processing request of type ListToolsRequest
+2026-04-07 14:44:27,233 DEBUG Dispatching request of type ListToolsRequest
+2026-04-07 14:44:27,233 DEBUG Response sent
+2026-04-07 14:44:27,234 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x00000160132AC410>
+2026-04-07 14:44:27,234 INFO Processing request of type ListPromptsRequest
+2026-04-07 14:44:27,234 DEBUG Dispatching request of type ListPromptsRequest
+2026-04-07 14:44:27,235 DEBUG Received message: <mcp.shared.session.RequestResponder object at 0x000001601316DBA0>
+2026-04-07 14:44:27,235 INFO Processing request of type ListResourcesRequest
+2026-04-07 14:44:27,235 DEBUG Dispatching request of type ListResourcesRequest
+2026-04-07 14:44:27,235 DEBUG Listing resources
+2026-04-07 14:44:27,236 DEBUG Response sent
+2026-04-07 14:44:27,236 DEBUG Response sent
+2026-04-07 14:45:06,644 DEBUG mcp.run() returned

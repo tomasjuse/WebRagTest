@@ -24,14 +24,14 @@ A hybrid RAG (Retrieval-Augmented Generation) application for querying your own 
 3. **Configure environment variables** *(only needed for `bot.py`)*:
     Create a `.env` file:
     ```text
-    GEMINI_API_KEY=your_gemini_key_here
+    GEMINI_API_KEY=your_gemini_key_here   // from https://aistudio.google.com/api-keys
     OPENAI_API_KEY=your_openai_key_here
     GITHUB_PERSONAL_ACCESS_TOKEN=your_github_token_here
     ```
     The bot tries Gemini first, then GitHub Models, then OpenAI. All are optional — it falls back to retrieval-only mode if none are set.
 
 ## Indexing Documents
-
+d
 ### Option A — Web UI (recommended)
 
 ```bash

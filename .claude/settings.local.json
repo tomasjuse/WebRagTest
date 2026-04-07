@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__ragserver__search_documents"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "ragserver",
+    "ragbm25",
+    "ragfaiss"
+  ]
+}

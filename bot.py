@@ -109,7 +109,10 @@ KEYWORDS = [
     "sdk",
     "documentation",
     "whitepaper",
-    "test" 
+    "test",
+    "hifk",
+    "freda",
+    "nordenskiöldinkatu"
       
 ]
 

@@ -815,12 +815,12 @@
     },
 	{
         "id": 102,
-        "query": "Where is Vincit's espresso coffe machine",
+        "query": "Where is HIFK's espresso machine",
         "answer": "On 5th floor"
     },
 	{
         "id": 103,
-        "query": "Where is Vincit's office in Helsinki",
-        "answer": "On Freda"
+        "query": "Where is HIFK's office in Helsinki",
+        "answer": "Nordenskiöldinkatu 11-13"
     }
 ]
